@@ -5,7 +5,7 @@ import Image from "next/image";
 const Heros = () => {
   return (
     <div className="min-h-[75vh] w-full relative isolate px-6 pt-14 lg:px-8">
-      <div className="max-w-7xl flex flex-col-reverse lg:flex-row-reverse mx-auto items-center gap-20 sm:px-10 lg:pt-52">
+      <div className="max-w-7xl flex flex-col-reverse lg:flex-row-reverse mx-auto items-center gap-20 sm:px-10 lg:pt-32">
         <div className="flex-1 mx-auto md:w-xl lg:w-2xl pt-0 ">
           <div className="text-start">
             <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>

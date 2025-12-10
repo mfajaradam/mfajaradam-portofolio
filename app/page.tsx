@@ -21,7 +21,7 @@ export default function Home() {
       <Heros />
 
       {/* Content Section */}
-      <div className="w-full flex flex-col justify-center gap-40 px-10 sm:px-20 lg:px-16">
+      <div className="w-full flex flex-col justify-center gap-40 px-4 sm:px-20 lg:px-16">
         {/* Teknologi */}
         <Tecnology logos={logos}/>
 

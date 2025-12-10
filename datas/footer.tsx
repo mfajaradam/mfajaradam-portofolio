@@ -11,7 +11,7 @@ export type FooterProps = {
 };
 
 export const footer: FooterProps["footer"] = [
-  { title: <img src="https://skillicons.dev/icons?i=htmx" className="w-32 md:w-20" />, list: <Cnavigations addStyle="flex justify-center flex-wrap gap-10" /> },
+  { title: <img src="https://skillicons.dev/icons?i=htmx" className="w-32 md:w-20" />, list: <Cnavigations addStyle="flex justify-center flex-wrap gap-6 sm:gap-10" /> },
   {
     title: "© Created by Adam",
     list: [
